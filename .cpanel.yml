@@ -3,3 +3,4 @@ deployment:
         - export DEPLOYPATH=/home2/kmanager/public_html/devops  
         - /bin cp * $DEPLOYPATH
         - /bin/cp -r * $DEPLOYPATH
+        - git pull
